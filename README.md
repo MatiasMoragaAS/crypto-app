@@ -27,3 +27,8 @@ docker run --rm crypto-app python encriptador.py "Hola Mundo" "clave123"
 # Probar el desencriptador
 docker run --rm crypto-app python desencriptador.py "HASH_AQUI" "clave123"
 ```
+## 🌐 Publicación
+La imagen está disponible en Docker Hub bajo el usuario:
+```
+matias654/crypto-app:latest
+```
