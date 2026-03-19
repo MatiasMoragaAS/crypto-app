@@ -14,3 +14,16 @@ docker run --rm matias654/crypto-app python encriptador.py "Hola Mundo" "clave12
 
 # Desencriptar usando el hash generado
 docker run --rm matias654/crypto-app python desencriptador.py "HASH_AQUI" "clave123"
+```
+## 🛠️ Construcción local
+Si prefieres construir la imagen en tu máquina
+```
+# Construir la imagen
+docker build -t crypto-app .
+
+# Probar el encriptador
+docker run --rm crypto-app python encriptador.py "Hola Mundo" "clave123"
+
+# Probar el desencriptador
+docker run --rm crypto-app python desencriptador.py "HASH_AQUI" "clave123"
+```
