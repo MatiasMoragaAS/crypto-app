@@ -1,0 +1,34 @@
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# Entornos virtuales
+.venv/
+env/
+venv/
+ENV/
+
+# Configuración local
+*.log
+*.sqlite3
+*.db
+
+# Archivos de entorno
+.env
+.env.*
+
+# Archivos de Docker
+.dockerignore
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.swp
+
+# Archivos de sistema (Windows / macOS)
+Thumbs.db
+.DS_Store
